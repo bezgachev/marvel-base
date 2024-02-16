@@ -1,4 +1,5 @@
 import React from 'react';
+// eslint-disable-next-line
 import { StrictMode } from 'react';
 import { createRoot } from "react-dom/client";
 import App from './components/app/App';
@@ -8,7 +9,9 @@ import './style/style.scss';
 const container = document.getElementById("root");
 const root = createRoot(container);
 root.render(
-    <StrictMode>
+    // eslint-disable-next-line
+    // <StrictMode>
         <App />
-    </StrictMode>
+    // eslint-disable-next-line
+    // </StrictMode>
 );
